@@ -1,16 +1,86 @@
-# React + Vite
+🚀 Loyalty App Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Live Demo
 
-Currently, two official plugins are available:
+http://loyaltybackend.gt.tc
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Loyalty App Frontend is a React-based user interface designed for a loyalty points management system. It allows users to register, log in, and track their reward points through a clean and responsive interface.
 
-## Expanding the ESLint configuration
+This frontend communicates with a PHP-based backend API to handle authentication and data operations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+🛠 Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+---
+
+⚙️ Key Features
+
+- 🔐 User Authentication (Register & Login)
+- 📊 Points Management Dashboard
+- 🔗 API Integration with Backend
+- 📱 Responsive UI Design
+- ⚡ Fast performance using Vite
+
+---
+
+🏗️ Architecture
+
+The application follows a component-based architecture using React.
+Frontend interacts with backend APIs via HTTP requests for authentication and data handling.
+
+---
+
+🔗 Backend Repository
+
+👉 https://github.com/samrockwin/loyalty-app-backend
+
+---
+
+▶️ Getting Started
+
+Prerequisites
+
+- Node.js installed
+- Backend server running (PHP + MySQL)
+
+Installation
+
+npm install
+
+Run the Application
+
+npm run dev
+
+---
+
+📁 Project Structure
+
+frontend/
+ ├── src/
+ │    ├── components/
+ │    ├── pages/
+ │    └── App.jsx
+ ├── public/
+ ├── index.html
+ ├── package.json
+
+---
+
+🔒 Security Note
+
+Sensitive data such as API credentials and database configurations are not exposed in this repository.
+
+---
+
+👨‍💻 Author
+
+Sam Rockwin S
